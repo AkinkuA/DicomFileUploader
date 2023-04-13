@@ -11,7 +11,7 @@ relational database.
     - [Installation](#installation)
 - [Running the Application](#running-the-application)
     - [Endpoints](#Endpoints)
-    - [Using with Postman](#Using with Postman)
+    - [Using with Postman](# Using with Postman)
 - [Testing](#testing)
 - [Production Considerations](#production-considerations)
 - [Trade-offs and Compromises](#trade-offs-and-compromises)
