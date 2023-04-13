@@ -56,7 +56,7 @@ class DicomServiceImplTest {
         Path storedFile = dicomService.storeDicomFile(multipartFile, storageLocation);
 
         // Use a sample DICOM file and tag for this test
-        String dicomTag = "00080020"; // Study Date
+        String dicomTag = "00100010"; // Patient Name
 
         assertThrows(DicomStreamException.class, () -> {
             dicomService.extractDicomAttribute("test.dcm", dicomTag, storageLocation);
