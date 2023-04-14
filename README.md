@@ -20,7 +20,7 @@ relational database.
 
 ### Prerequisites
 
-- Java 11
+- [Java 11](https://www.oracle.com/ca-en/java/technologies/downloads/#jdk20-linux)
 - Maven
 
 ### Installation
@@ -70,7 +70,7 @@ with the Database. Keep in mind closing the Database Manager will stop the appli
     an example url might look like this `http://localhost:8080/dicom/IM000018/attribute?tag=00100010`. This is 
     retrieving the patient's name `(0010,0010)`  from the file `IM000018`
     - **Response**: The response will be a JSON object containing the requested attribute's value, along with the file 
-    - name and DICOM tag.
+    name and DICOM tag.
 
 ### Using with Postman
 
