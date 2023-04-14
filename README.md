@@ -1,6 +1,6 @@
 # DICOM File Uploader and Attribute Reader
 
-This project allows users to upload DICOM files, convert them to PNG files, store them on the server, and query DICOM 
+This project allows users to upload DICOM files, convert them to PNG files, store them on an internal folder, and query DICOM 
 attributes using a RESTful API. The application is built using Java with Spring Boot, and stores file metadata in a 
 relational database.
 
@@ -51,7 +51,7 @@ with the Database. Keep in mind closing the Database Manager will stop the appli
 ### Endpoints
 
 1. Upload DICOM File
-    - **Description**: This endpoint allows users to upload a DICOM file, store it on the server, and save its 
+    - **Description**: This endpoint allows users to upload a DICOM file, store it in a folder (`uploaded_dicom_files`), and save its 
    information to the database. Additionally, it converts the DICOM file to a PNG image and saves it in a separate 
    folder (`created_png_files`).
     - **Endpoint**: `/dicom/upload`
