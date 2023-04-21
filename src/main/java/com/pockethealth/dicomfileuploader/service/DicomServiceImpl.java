@@ -79,7 +79,7 @@ public class DicomServiceImpl implements DicomService{
 
         try {
             dis = new DicomInputStream(dicomPath.toFile());
-            Attributes attributes = dis.readDataset(-1, Tag.PixelData);
+            dis.readDataset(-1, Tag.PixelData);
             dis.close();
 
             Iterator<ImageReader> readers = ImageIO.getImageReadersByFormatName("DICOM");
