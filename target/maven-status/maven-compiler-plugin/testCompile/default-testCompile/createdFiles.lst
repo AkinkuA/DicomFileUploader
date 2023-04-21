@@ -1,0 +1,4 @@
+com/pockethealth/dicomfileuploader/service/DicomServiceImplTest.class
+com/pockethealth/dicomfileuploader/DicomFileUploaderApplicationTests.class
+com/pockethealth/dicomfileuploader/model/DicomFileTest.class
+com/pockethealth/dicomfileuploader/contoller/DicomFileControllerTest.class

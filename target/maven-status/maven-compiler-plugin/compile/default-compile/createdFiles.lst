@@ -1,0 +1,6 @@
+com/pockethealth/dicomfileuploader/service/DicomServiceImpl.class
+com/pockethealth/dicomfileuploader/service/DicomService.class
+com/pockethealth/dicomfileuploader/model/DicomFile.class
+com/pockethealth/dicomfileuploader/repo/DicomFileRepository.class
+com/pockethealth/dicomfileuploader/controller/DicomFileController.class
+com/pockethealth/dicomfileuploader/DicomFileUploaderApplication.class
