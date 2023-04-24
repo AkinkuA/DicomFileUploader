@@ -47,4 +47,5 @@ jobs:
         git add target/
         git commit -m "Deploy to Heroku"
         git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/salty-forest-31108.git
-        git subtree push --prefix=target heroku heroku-deploy --force
+        git fetch heroku
+        git push heroku +HEAD:heroku-deploy
