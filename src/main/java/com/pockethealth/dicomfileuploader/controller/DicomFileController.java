@@ -97,4 +97,9 @@ public class DicomFileController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
         }
     }
+
+    @GetMapping("/")
+    public String root() {
+        return "DICOM File Uploader is running.";
+    }
 }
